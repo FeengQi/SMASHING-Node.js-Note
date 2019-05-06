@@ -1,6 +1,7 @@
 # SMASHING-Node.js-Note
 了不起的Node js 将JavaScript进行到底 笔记
 
+#### PART Ⅰ　从安装与概念开始
 - CHAPTER 1 安装
   - 在window下安装
   - 在OS X下安装
@@ -54,7 +55,7 @@
   - 事件
   - buffer
   - 小结
-PART Ⅱ　Node重要的API
+#### PART Ⅱ　Node重要的API
 - CHAPTER 5　命令行工具（CLI）以及FS API：首个Node应用
   - 需求
   - 编写首个Node程序
@@ -115,7 +116,7 @@ PART Ⅱ　Node重要的API
   - superagent来拯救
   - 使用up重启HTTP服务器
   - 小结
-PART Ⅲ　Web开发
+#### PART Ⅲ　Web开发
 - CHAPTER 8　Connect
   - 使用HTTP构建一个简单的网站
   - 通过Connect实现一个简单的网站
@@ -184,7 +185,7 @@ PART Ⅲ　Web开发
     - 集成Grooveshark.API
     - 播放歌曲
   - 小结 
-PART Ⅳ　数据库
+#### PART Ⅳ　数据库
 - CHAPTER 12　MongoDB
   - 安装
   - 使用MongoDB：一个用户认证的例子
@@ -247,7 +248,7 @@ PART Ⅳ　数据库
   - Redis和Node
     - 使用node-redis实现一个社交图谱
   - 小结
-PART Ⅴ　测试
+#### PART Ⅴ　测试
 - CHAPTER 15　代码共享
   - 什么样的代码可以共享
   - 书写兼容的JavaScript代码
