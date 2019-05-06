@@ -1,5 +1,4 @@
-# SMASHING-Node.js-Note
-了不起的Node js 将JavaScript进行到底 笔记
+# 了不起的Node js 将JavaScript进行到底
 
 #### PART Ⅰ　从安装与概念开始
 - CHAPTER 1 安装
