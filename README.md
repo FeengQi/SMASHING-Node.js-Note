@@ -86,6 +86,7 @@
     - 监视
   - 小结
 - CHAPTER 6　TCP
+    - Node HTTP服务器是构建与Node TCP服务器之上的。从编程角度来说，也就是Node中的http.Server继承自net.Server（net是TCP模块）。
   - TCP有哪些特性
     - 面向连接的通信和保证顺序的传递
     - 面向字节
