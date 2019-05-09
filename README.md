@@ -127,7 +127,10 @@
     - 测试实际的IRC服务器
   - 小结
 - CHAPTER 7　HTTP
+
+   `超文本传输协议，又称为HTTP，是一种Web协议，他是属于TCP上层的协议。`
   - HTTP结构
+    - HTTP协议构建在请求和响应的概念之上，对应在Node.js中就是由http.ServerRequest和http.ServerResponse这两个构造器构造出来的对象。
   - 头信息
   - 连接
   - 一个简单的Web服务器
