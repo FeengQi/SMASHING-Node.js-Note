@@ -5,7 +5,7 @@
   - 在window下安装
   - 在OS X下安装
   - 在Linux下安装
-    - 编译
+    - 编译 
     - 确保安装成功
   - Node REPL
   - 执行文件
