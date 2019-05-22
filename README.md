@@ -156,8 +156,10 @@
     - 书写可重用的中间件
     - static中间件
     - query中间件
-  - logger中间件
+    - logger中间件
     - body.parser中间件
+      - 使用bodyParser中间件来解析请求的消息体
+      - server.use(connect.bodyParser())
     - cookie
     - 会话（session）
     - Redis.session
