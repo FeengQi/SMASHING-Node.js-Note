@@ -164,7 +164,9 @@
     - 会话（session）
     - Redis.session
     - methodOverride中间件
+      - 
     - basicAuth中间件
+      - basicAuth中间件可以对客户端进行基本身份验证
   - 小结
 - CHAPTER 9　Express
   - 一个小型Express应用
