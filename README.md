@@ -24,7 +24,13 @@
   - 介绍
   - JavaScript基础
     - 类型
+      - 基本类型：number、boolean、string、null以及undefined（和symbol（es6））
+      - 复杂类型：array、function以及object
     - 类型的困惑
+      - 判断变量值的类型
+        ```
+        123
+        ```
     - 函数
     - THIS、FUNCTION#CALL以及FUNCTION#APPLY
     - 函数的参数
