@@ -76,14 +76,24 @@
       - 因为错误未被捕捉，若访问Web服务器，进程就会崩溃。
       - Node之所以这样处理是因为，在发生未被捕获的错误时，进程的状态就不确定了。之后就可能无法正常工作了，并且如果错误始终不处理的话，就会一直抛出意料之外的错误，这样就很难调试。
     - 堆栈追踪
+      - 在JavaScript中，当错误发生时，在错误信息中可以看到一系列的函数调用，这称为堆栈追踪。
   - 小结
 - CHAPTER 4　Node中的JavaScript
   - global对象
     - 实用的全局对象
+      - setTimeout并非ECMAScript的一部分，但浏览器却仍能将其视作重要的特性来实现。事实上，该函数是无法通过纯JavaScript重写的。
   - 模块系统
     - 绝对和相对模块
+      - 绝对模块是指Node通过在其内部node_modules查到的模块，或者Node内置的如fs这样的模块。
+        - 可以直接通过名字来require这个模块，无需添加路径名
   - 暴露API
+    - 要让模块暴露一个API成为require调用的返回值，就要依靠module和exports这两个全局变量。
+    - 在默认情况下，每个模块都会暴露一个空对象。
   - 事件
+    - Node.js中的基础API之一就是EventEmitter。
+    - 浏览器中负责处理时间相关的DOM API主要包括addEventListener、removeEventListener以及dispatchEvent。它们还用在一系列从window到XMLHTTPRequest等的其他对象上。
+     - Node暴露了Event、EmitterAPI，该API上定义了on、emit以及removeListener方法，它以process.EventEmitter形式暴露出来。
+     - 事件时Node非阻塞设计的重要体现，Node通常不会直接返回数据（因为这样可能会在等待某个资源的时候发生线程阻塞），二十采用分发事件来传递数据的方法。
   - buffer
   - 小结
 #### PART Ⅱ　Node重要的API
