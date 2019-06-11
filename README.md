@@ -219,6 +219,7 @@
 - CHAPTER 10　WebSocket
   - Ajax
   - HTML5.WebSocket
+    - 每次提到WebSocket的时候，其实是咋讲两部分内容：一部分是浏览器实现的WebScket API 
   - 一个ECHO示例
     - 初始化项目
       -  
