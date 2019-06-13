@@ -18,7 +18,7 @@
     - 浏览NPM仓库
       - 搜索模块`npm search xxx`
       - 查看模块的package.json文件`npm view xxx`
-  - 小结
+  - 小结 
   
 - CHAPTER 2 JavaScript概览
   - 介绍
