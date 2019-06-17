@@ -29,7 +29,6 @@
     - 类型的困惑
       - 判断变量值的类型
         ```
-        123
         ```
     - 函数
     - THIS、FUNCTION#CALL以及FUNCTION#APPLY
