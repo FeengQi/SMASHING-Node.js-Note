@@ -28,7 +28,7 @@
       - 复杂类型：array、function以及object
     - 类型的困惑
       - 判断变量值的类型
-        ```
+        ``` 
         ```
     - 函数
     - THIS、FUNCTION#CALL以及FUNCTION#APPLY
