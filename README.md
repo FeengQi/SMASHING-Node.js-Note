@@ -12,7 +12,7 @@
   - 执行文件
   - NPM
     - 安装模块
-      - `npm install`
+      - `npm install` 
     - 自定义模块
     - 安装二进制包
     - 浏览NPM仓库
