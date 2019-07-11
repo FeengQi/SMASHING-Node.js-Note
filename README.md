@@ -2,7 +2,7 @@
 
 #### PART Ⅰ　从安装与概念开始 
 - CHAPTER 1 安装
-  - 在window下安装
+  - 在window下安装 
   - 在OS X下安装
   - 在Linux下安装
     - 编译 
