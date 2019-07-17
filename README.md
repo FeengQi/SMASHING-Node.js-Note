@@ -31,7 +31,7 @@
         ``` 
         ```
     - 函数
-    - THIS、FUNCTION#CALL以及FUNCTION#APPLY
+    - THIS、FUNCTION#CALL以及FUNCTION#APPLY 
     - 函数的参数
     - 闭包
     - 类
